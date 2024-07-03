@@ -1,18 +1,12 @@
-/* .inter-<uniquifier> {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-  }
-   */
+/* font-family: "Inter", sans-serif; */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
 }
+
 /* monitor 1080/1920
     1632/1880=85.1%
 */
@@ -20,6 +14,31 @@
   max-width: 85%;
   margin: 0 auto;
 }
-h2 {
-  font-size: 12px;
+
+/* navbar design start form here */
+.navBar {
+  justify-content: space-between;
+  margin: 30px 40px;
+}
+.navBar,
+.navBar ul {
+  display: flex;
+  align-items: center;
+}
+.navBar ul li {
+  list-style: none;
+  margin-left: 23px;
+}
+.navLogo img {
+  width: 124px;
+}
+.navBar button {
+  background: none;
+  padding: 14px 28px;
+  border-radius: 14px;
+}
+.navBar button span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 0.5rem;
 }
