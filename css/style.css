@@ -1,0 +1,25 @@
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* monitor 1080/1920
+    1632/1880=85.1%
+*/
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 12px;
+}
